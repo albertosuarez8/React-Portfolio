@@ -1,9 +1,11 @@
 import React from 'react'
 import Navigation from './Navigation';
 
-function Header() {
+function Header(props) {
     return (
-        <Navigation />
+        <Navigation 
+        handleTitle={props.handleTitle}
+        />
     );
 }
 

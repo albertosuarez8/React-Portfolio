@@ -9,7 +9,8 @@ const testing = {
     captiontwo: "Two"
 }
 
-function Container() {
+
+function Container(props) {
     return (
         <>
             <main>
@@ -21,7 +22,7 @@ function Container() {
             </main>
             <div>
                 <div className='w-full flex justify-center text-zinc-300 text-[2.5rem]'> 
-                My Projects
+                {props.title}
                 </div>
                 <div id='container' className='flex items-center flex-col overflow-y-scroll w-[50vw] h-[50vh]'>
                     <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
