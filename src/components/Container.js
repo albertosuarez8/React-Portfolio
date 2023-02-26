@@ -1,6 +1,7 @@
 import React from 'react'
 import image from '../assets/glub.png'
-import Card from './Card'
+import Card from './Card';
+import Form from './Form';
 
 const testing = {
     image: image,
@@ -40,7 +41,7 @@ function Container(props) {
                                 );
                             case 'Contact Me':
                                 return (
-                                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
+                                    <Form/>
                                 );
                             default:
                                 return null;
