@@ -8,17 +8,17 @@ function Navigation() {
                 <ul className="hidden sm:flex sm:p-6">
                     <li className="sm:px-10 text-zinc-300">
                         <a href="#">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li className="sm:px-10 text-zinc-300">
-                        <a href="#">
-                            <span>About</span>
+                            <span>About Me</span>
                         </a>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
                         <a href="#">
                             <span>Projects</span>
+                        </a>
+                    </li>
+                    <li className="sm:px-10 text-zinc-300">
+                        <a href="#">
+                            <span>Resume</span>
                         </a>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
@@ -34,16 +34,16 @@ function Navigation() {
                         dismissOnClick={false}
                     >
                         <Dropdown.Item>
-                            Dashboard
+                            About Me
                         </Dropdown.Item>
                         <Dropdown.Item>
-                            Settings
+                            Projects
                         </Dropdown.Item>
                         <Dropdown.Item>
-                            Earnings
+                            Resume
                         </Dropdown.Item>
                         <Dropdown.Item>
-                            Sign out
+                            Contact
                         </Dropdown.Item>
                     </Dropdown>
                 </div>
