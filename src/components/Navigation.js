@@ -12,24 +12,24 @@ function Navigation(props) {
             <nav className="flex w-full sm:flex backdrop-filter backdrop-blur-lg bg-opacity-10 z-10 bg-white justify-center">
                 <ul className="hidden sm:flex sm:p-6">
                     <li className="sm:px-10 text-zinc-300">
-                        <a href="#" onClick={() => handleClick("About Me")}>
+                        <button onClick={() => handleClick("About Me")}>
                             <span>About Me</span>
-                        </a>
+                        </button>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
-                        <a href="#" onClick={() => handleClick("My Projects")}>
+                        <button onClick={() => handleClick("My Projects")}>
                             <span>Projects</span>
-                        </a>
+                        </button>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
-                        <a href="#">
+                        <a href="">
                             <span>Resume</span>
                         </a>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
-                        <a href="#" onClick={() => handleClick("Contact Me")}>
+                        <button href="" onClick={() => handleClick("Contact Me")}>
                             <span>Contact</span>
-                        </a>
+                        </button>
                     </li>
                 </ul>
                 {/* <!-- Dropdown menu --> */}
