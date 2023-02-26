@@ -21,18 +21,32 @@ function Container(props) {
                 </div>
             </main>
             <div>
-                <div className='w-full flex justify-center text-zinc-300 text-[2.5rem]'> 
-                {props.title}
+                <div className='w-full flex justify-center text-zinc-300 text-[2.5rem]'>
+                    {props.title}
                 </div>
                 <div id='container' className='flex items-center flex-col overflow-y-scroll w-[50vw] h-[50vh]'>
-                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
+                    <>
+                    {(() => {
+                        switch (props.title) {
+                            case 'About Me':
+                                return (<Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />);
+                            case 'My Projects':
+                                return (
+                                    <>
+                                <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
+                                <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
+                                <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
+                                </>
+                                );
+                            case 'Contact Me':
+                                return (
+                                    <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
+                                );
+                            default:
+                                return null;
+                        }
+                    })()}
+                    </>
                 </div>
             </div>
         </>
