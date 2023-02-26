@@ -1,10 +1,11 @@
 import React from 'react'
 import { Dropdown } from 'flowbite-react';
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 function Navigation(props) {
 
     function handleClick(title) {
-        props.handleTitle(title); 
+        props.handleTitle(title);
     }
 
     return (
@@ -33,11 +34,17 @@ function Navigation(props) {
                     </li>
                 </ul>
                 {/* <!-- Dropdown menu --> */}
-                <div className='flex sm:hidden'>
+                <div className='flex sm:hidden justify-around w-full items-center'>
+                    <div className='text-[2.5rem] text-zinc-300'>
+                        Alberto Suarez
+                    </div>
+                    <div>
                     <Dropdown
-                        label="Dropdown button"
+                    className='bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 '
+                        label={<GiHamburgerMenu/>}
+                        placement="bottom"
                         dismissOnClick={false}
-                    >
+                        >
                         <Dropdown.Item>
                             About Me
                         </Dropdown.Item>
@@ -51,6 +58,8 @@ function Navigation(props) {
                             Contact
                         </Dropdown.Item>
                     </Dropdown>
+                    </div>
+                    
                 </div>
             </nav>
         </header>
