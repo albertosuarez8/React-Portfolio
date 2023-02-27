@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.e58c07ae.css",
+    "main.js": "/React-Portfolio/static/js/main.126e149d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/quiz.jpg": "/React-Portfolio/static/media/quiz.f91b1bac3c209c0e098b.jpg",
+    "static/media/nightin.jpg": "/React-Portfolio/static/media/nightin.df4f7efca056cff2dd93.jpg",
+    "static/media/team.jpg": "/React-Portfolio/static/media/team.214d04d83866660466a7.jpg",
+    "static/media/mountains.jpeg": "/React-Portfolio/static/media/mountains.1bd19ed31869fe4dd3c0.jpeg",
+    "static/media/brewery.jpg": "/React-Portfolio/static/media/brewery.732ed64de2951607395e.jpg",
+    "static/media/weather.jpg": "/React-Portfolio/static/media/weather.95be27fb1c051a2aadda.jpg",
+    "static/media/password.jpg": "/React-Portfolio/static/media/password.d4502f0e5296713d0bdc.jpg",
+    "static/media/glub.png": "/React-Portfolio/static/media/glub.f22b3066dcbddc3e9a16.png",
+    "static/media/alberto.jpg": "/React-Portfolio/static/media/alberto.12e1e3d4627cdef471fc.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.e58c07ae.css.map": "/React-Portfolio/static/css/main.e58c07ae.css.map",
+    "main.126e149d.js.map": "/React-Portfolio/static/js/main.126e149d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e58c07ae.css",
+    "static/js/main.126e149d.js"
+  ]
+}
