@@ -5,7 +5,7 @@ import { FaUser } from 'react-icons/fa'
 
 function Form() {
     return (
-        <form className="flex flex-col gap-4 w-[90%]">
+        <form id="form" className="flex flex-col gap-4 w-[90%] overflow-y-scroll">
             <div>
                 <div className="mb-2 block">
                     <Label className='text-zinc-300'
@@ -31,7 +31,7 @@ function Form() {
                     id="email4"
                     type="email"
                     icon={MdEmail}
-                    placeholder="name@flowbite.com"
+                    placeholder="name@gmail.com"
                     required={true}
                 />
             </div>

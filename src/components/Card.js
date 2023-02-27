@@ -11,7 +11,7 @@ function Card(props) {
 
     return (
         <>
-        <figure className="bg-zinc-300 opacity-75 rounded-xl p-8 dark:bg-slate-800 mb-8 w-11/12">
+        <figure className="bg-zinc-300 opacity-75 rounded-xl p-8 dark:bg-slate-800 mb-8 w-11/12 h-[fit-content]">
             <img className="cursor-pointer w-48 h-48 rounded-full mx-auto hover:opacity-50" src={props.image} alt="" width="384" height="512" onClick={linkHandler}/>
                 <div className="pt-6 space-y-4">
                     <blockquote>

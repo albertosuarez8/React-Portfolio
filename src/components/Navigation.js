@@ -40,21 +40,20 @@ function Navigation(props) {
                     </div>
                     <div>
                     <Dropdown
-                    className='bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 '
                         label={<GiHamburgerMenu/>}
                         placement="bottom"
                         dismissOnClick={false}
                         >
-                        <Dropdown.Item>
+                        <Dropdown.Item onClick={() => handleClick("About Me")}>
                             About Me
                         </Dropdown.Item>
-                        <Dropdown.Item>
+                        <Dropdown.Item onClick={() => handleClick("My Projects")}>
                             Projects
                         </Dropdown.Item>
                         <Dropdown.Item>
                             Resume
                         </Dropdown.Item>
-                        <Dropdown.Item>
+                        <Dropdown.Item onClick={() => handleClick("Contact Me")}>
                             Contact
                         </Dropdown.Item>
                     </Dropdown>
