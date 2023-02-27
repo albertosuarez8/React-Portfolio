@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextInput, Label, Button, Textarea } from 'flowbite-react';
-import { MdEmail, MdUser } from 'react-icons/md'
+import { MdEmail } from 'react-icons/md'
 import { FaUser } from 'react-icons/fa'
 
 function Form() {

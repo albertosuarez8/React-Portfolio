@@ -10,8 +10,6 @@ import team from '../assets/team.jpg'
 import weather from '../assets/weather.jpg'
 import quiz from '../assets/quiz.jpg'
 
-const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit duis tristique sollicitudin. Ut lectus arcu bibendum at varius vel pharetra."
-
 const bio = {
     image: alberto,
     bio: "I am senior business analyst and full stack developer with a proven track record of delivering innovative solutions to complex business problems. I have deep expertise in gathering and analyzing business requirements, designing effective solutions, and developing web-based applications, software products, and APIs.",
