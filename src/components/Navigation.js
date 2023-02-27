@@ -23,7 +23,7 @@ function Navigation(props) {
                         </button>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
-                        <a className='hover:opacity-50' href="https://docs.google.com/document/d/15lTWcH5bFSNRn_QbWyKzoXVxyGgkP5w2/edit?usp=sharing&ouid=106108940933458446743&rtpof=true&sd=true">
+                        <a className='hover:opacity-50' href="https://docs.google.com/document/d/15lTWcH5bFSNRn_QbWyKzoXVxyGgkP5w2/edit?usp=sharing&ouid=106108940933458446743&rtpof=true&sd=true" target="_blank" rel='noreferrer'>
                             <span>Resume</span>
                         </a>
                     </li>

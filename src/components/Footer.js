@@ -8,10 +8,10 @@ function Footer() {
     return ( 
         <div className='w-full flex justify-end fixed bottom-0 left-0'>
             <div className='flex items-end mx-2 my-2'>
-                <a href="https://www.linkedin.com/in/albertojsuarez/" className='w-[50px] h-[50px] mx-5 hover:opacity-50'>
+                <a href="https://www.linkedin.com/in/albertojsuarez/" target="_blank" rel='noreferrer' className='w-[50px] h-[50px] mx-5 hover:opacity-50'>
                     <SiLinkedin className='w-[50px] h-[50px] text-zinc-300'/>
                 </a>
-                <a href="https://github.com/albertosuarez8" className='w-[50px] h-[50px] hover:opacity-50'>
+                <a href="https://github.com/albertosuarez8" target="_blank" rel='noreferrer' className='w-[50px] h-[50px] hover:opacity-50'>
                     <BsGithub className='w-[50px] h-[50px] text-zinc-300'/>
                 </a>
             </div>
