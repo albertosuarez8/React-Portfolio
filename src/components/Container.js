@@ -1,22 +1,65 @@
 import React from 'react'
-import image from '../assets/glub.png'
 import Card from './Card';
 import Form from './Form';
 import Bio from './Bio';
 import alberto from '../assets/alberto.jpg'
+import brewery from '../assets/brewery.jpg'
+import nightin from '../assets/nightin.jpg'
+import password from '../assets/password.jpg'
+import team from '../assets/team.jpg'
+import weather from '../assets/weather.jpg'
+import quiz from '../assets/quiz.jpg'
 
-const testing = {
-    image: image,
-    bio: "Testing",
-    captionone: "One",
-    captiontwo: "Two"
-}
+const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit duis tristique sollicitudin. Ut lectus arcu bibendum at varius vel pharetra."
 
 const bio = {
     image: alberto,
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit duis tristique sollicitudin. Ut lectus arcu bibendum at varius vel pharetra.",
+    bio: "I am senior business analyst and full stack developer with a proven track record of delivering innovative solutions to complex business problems. I have deep expertise in gathering and analyzing business requirements, designing effective solutions, and developing web-based applications, software products, and APIs.",
     captionone: "",
-    captionone: "",
+    captiontwo: "",
+    site: ""
+}
+
+const breweryData = {
+    image: brewery,
+    bio: "This website is a platform for users to review/rate breweries, and share their experiences with other beer enthusiasts. Users can search for breweries by location, beer style, and other criteria, and read reviews from other users. The website aims to foster a community of beer lovers and help users discover new breweries and beers to try.",
+    captionone: "Technologies Used",
+    captiontwo: "Handlebars.js, Node.js, Bulma, Express.js"
+}
+
+const nightinData = {
+    image: nightin,
+    bio: "This website allows users to input their preferred type of food and movie, generating a personalized recommendation for a recipe and a movie that match their preferences. The website curates a selection of recipes and movie recommendations based on the user's input, with a focus on diverse and unique options. The website aims to provide users with a fun and interactive way to discover new foods and movies that suit their tastes.",
+    captionone: "Technologies Used",
+    captiontwo: "Javascript, HTML, Materialize, CSS"
+}
+
+const passwordData = {
+    image: password,
+    bio: "This website offers a password generator tool that allows users to create strong and secure passwords using a variety of parameters, such as length, complexity, and character types. The website aims to help users protect their online accounts from hacking and identity theft by generating and managing strong passwords.",
+    captionone: "Technologies Used",
+    captiontwo: "Javascript, HTML, CSS"
+}
+
+const teamData = {
+    image: team,
+    bio: "This application allows users to create a custom HTML page that displays team profiles with user-specified data. Users can add and remove team members. The application aims to provide an easy and efficient way for users to create professional-looking team pages for personal or professional use.",
+    captionone: "Technologies Used",
+    captiontwo: "Node.js, HTML, CSS"
+}
+
+const quizData = {
+    image: quiz,
+    bio: "This website provides a quiz on fundamental concepts of JavaScript, such as variables and functions allowing users to test their knowledge and understanding of the language. The quiz consists of multiple-choice questions with varying levels of difficulty and provides immediate feedback to users after each question. The website aims to help users improve their understanding of JavaScript.",
+    captionone: "Technologies Used",
+    captiontwo: "Javascript, CSS, Bootstrap, HTML"
+}
+
+const weatherData = {
+    image: weather,
+    bio: "This website allows users to check the weather in their city, providing real-time updates on temperature, precipitation, wind speed, and other weather conditions. Users can also view hourly and daily forecasts, as well as radar and satellite maps. The website aims to provide users with accurate and up-to-date weather information to help them plan their day or week ahead.",
+    captionone: "Technologies Used",
+    captiontwo: "Javascript, CSS, Bootstrap, HTML"
 }
 
 
@@ -44,9 +87,12 @@ function Container(props) {
                                     case 'My Projects':
                                         return (
                                             <>
-                                                <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                                                <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
-                                                <Card image={testing.image} bio={testing.bio} captionone={testing.captionone} captiontwo={testing.captiontwo} />
+                                                <Card image={breweryData.image} bio={breweryData.bio} captionone={breweryData.captionone} captiontwo={breweryData.captiontwo} site={breweryData.site} />
+                                                <Card image={nightinData.image} bio={nightinData.bio} captionone={nightinData.captionone} captiontwo={nightinData.captiontwo} site={nightinData.site} />
+                                                <Card image={passwordData.image} bio={passwordData.bio} captionone={passwordData.captionone} captiontwo={passwordData.captiontwo} site={passwordData.site} />
+                                                <Card image={weatherData.image} bio={weatherData.bio} captionone={weatherData.captionone} captiontwo={weatherData.captiontwo} site={weatherData.site} />
+                                                <Card image={quizData.image} bio={quizData.bio} captionone={quizData.captionone} captiontwo={quizData.captiontwo} site={quizData.site} />
+                                                <Card image={teamData.image} bio={teamData.bio} captionone={teamData.captionone} captiontwo={teamData.captiontwo} site={teamData.site} />
                                             </>
                                         );
                                     case 'Contact Me':

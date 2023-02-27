@@ -1,10 +1,16 @@
 import React from 'react'
 
+
+
 function Card(props) {
+
+    function linkHandler() 
+
+
     return (
         <>
-        <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 opacity-50 w-11/12 mb-8">
-            <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={props.image} alt="" width="384" height="512"/>
+        <figure className="md:flex bg-zinc-300 rounded-xl p-8 md:p-0 dark:bg-slate-800 opacity-75 w-11/12 mb-8">
+            <img className="cursor-pointer w-[27rem] h-24 md:h-auto rounded-[5px] mx-auto" src={props.image} alt="" width="384" height="512"/>
                 <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                     <blockquote>
                         <p className="text-lg font-medium">
