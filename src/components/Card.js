@@ -11,9 +11,9 @@ function Card(props) {
 
     return (
         <>
-        <figure className="md:flex bg-zinc-300 rounded-xl p-8 md:p-0 dark:bg-slate-800 opacity-75 w-11/12 mb-8">
-            <img className="cursor-pointer w-[27rem] h-24 md:h-auto rounded-[5px] mx-auto" src={props.image} alt="" width="384" height="512" onClick={linkHandler}/>
-                <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+        <figure className="bg-zinc-300 opacity-75 rounded-xl p-8 dark:bg-slate-800 mb-8 w-11/12">
+            <img className="cursor-pointer w-48 h-48 rounded-full mx-auto hover:opacity-50" src={props.image} alt="" width="384" height="512" onClick={linkHandler}/>
+                <div className="pt-6 space-y-4">
                     <blockquote>
                         <p className="text-lg font-medium">
                             {props.bio}

@@ -13,22 +13,22 @@ function Navigation(props) {
             <nav className="flex w-full sm:flex backdrop-filter backdrop-blur-lg bg-opacity-10 z-10 bg-white justify-center">
                 <ul className="hidden sm:flex sm:p-6">
                     <li className="sm:px-10 text-zinc-300">
-                        <button onClick={() => handleClick("About Me")}>
+                        <button className='hover:opacity-50' onClick={() => handleClick("About Me")}>
                             <span>About Me</span>
                         </button>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
-                        <button onClick={() => handleClick("My Projects")}>
+                        <button className='hover:opacity-50' onClick={() => handleClick("My Projects")}>
                             <span>Projects</span>
                         </button>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
-                        <a href="">
+                        <a className='hover:opacity-50' href="">
                             <span>Resume</span>
                         </a>
                     </li>
                     <li className="sm:px-10 text-zinc-300">
-                        <button href="" onClick={() => handleClick("Contact Me")}>
+                        <button className='hover:opacity-50' onClick={() => handleClick("Contact Me")}>
                             <span>Contact</span>
                         </button>
                     </li>
