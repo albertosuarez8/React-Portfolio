@@ -8,6 +8,10 @@ function Navigation(props) {
         props.handleTitle(title);
     }
 
+    const linkHandler = () => {
+        window.open("https://docs.google.com/document/d/15lTWcH5bFSNRn_QbWyKzoXVxyGgkP5w2/edit?usp=sharing&ouid=106108940933458446743&rtpof=true&sd=true", "_blank");
+    }
+
     return (
         <header className="w-full justify-center items-center fixed z-10">
             <nav className="flex w-full sm:flex backdrop-filter backdrop-blur-lg bg-opacity-10 z-10 bg-white justify-center">
@@ -50,7 +54,7 @@ function Navigation(props) {
                         <Dropdown.Item onClick={() => handleClick("My Projects")}>
                             Projects
                         </Dropdown.Item>
-                        <Dropdown.Item>
+                        <Dropdown.Item onClick={() => linkHandler()}>
                             Resume
                         </Dropdown.Item>
                         <Dropdown.Item onClick={() => handleClick("Contact Me")}>

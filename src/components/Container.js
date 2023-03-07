@@ -12,7 +12,7 @@ import quiz from '../assets/quiz.jpg'
 
 const bio = {
     image: alberto,
-    bio: "I am senior business analyst and full stack developer with a proven track record of delivering innovative solutions to complex business problems. I have deep expertise in gathering and analyzing business requirements, designing effective solutions, and developing web-based applications, software products, and APIs.",
+    bio: "I am a senior business analyst and full stack developer with a proven track record of delivering innovative solutions to complex business problems. I have a deep expertise in gathering and analyzing business requirements, designing effective solutions, and developing web-based applications, software products, and APIs.",
     captionone: "",
     captiontwo: ""
 }
