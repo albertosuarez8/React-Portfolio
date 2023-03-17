@@ -19,7 +19,7 @@ const bio = {
 
 const breweryData = {
     image: brewery,
-    bio: "This website is a platform for users to review/rate breweries, and share their experiences with other beer enthusiasts. Users can search for breweries by location, beer style, and other criteria, and read reviews from other users. The website aims to foster a community of beer lovers and help users discover new breweries and beers to try.",
+    bio: "Brewery Reviews is a platform for users to review/rate breweries, and share their experiences with other beer enthusiasts. Users can search for breweries by location, beer style, and other criteria, and read reviews from other users. The website aims to foster a community of beer lovers and help users discover new breweries and beers to try.",
     captionone: "Technologies Used",
     captiontwo: "Handlebars.js, Node.js, Bulma, Express.js",
     site: "https://breweries-reviews.herokuapp.com/"
@@ -27,7 +27,7 @@ const breweryData = {
 
 const nightinData = {
     image: nightin,
-    bio: "This website allows users to input their preferred type of food and movie, generating a personalized recommendation for a recipe and a movie that match their preferences. The website curates a selection of recipes and movie recommendations based on the user's input, with a focus on diverse and unique options. The website aims to provide users with a fun and interactive way to discover new foods and movies that suit their tastes.",
+    bio: "A Night In allows users to input their preferred type of food and movie, generating a personalized recommendation for a recipe and a movie that match their preferences. The website curates a selection of recipes and movie recommendations based on the user's input, with a focus on diverse and unique options. The website aims to provide users with a fun and interactive way to discover new foods and movies that suit their tastes.",
     captionone: "Technologies Used",
     captiontwo: "Javascript, HTML, Materialize, CSS",
     site: "https://magmesser.github.io/a-night-in/"
