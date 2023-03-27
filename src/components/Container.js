@@ -9,12 +9,21 @@ import password from '../assets/password.jpg'
 import team from '../assets/team.jpg'
 import weather from '../assets/weather.jpg'
 import quiz from '../assets/quiz.jpg'
+import logo from '../assets/logo.png'
 
 const bio = {
     image: alberto,
     bio: "I am a senior business analyst and full stack developer with a proven track record of delivering innovative solutions to complex business problems. I have a deep expertise in gathering and analyzing business requirements, designing effective solutions, and developing web-based applications, software products, and APIs.",
     captionone: "",
     captiontwo: ""
+}
+
+const marketData = {
+    image: logo,
+    bio: "The Mars Market is a unique online marketplace where customers can buy and sell goods and services directly with each other. Our platform offers a safe and user-friendly environment for individuals to connect and transact with one another. Whether you're looking to buy or sell handmade crafts, vintage goods, or even virtual services, The Mars Market has something for everyone",
+    captionone: "Technologies Used",
+    captiontwo: "MERN, Tailwind, DaisyUI, PayPal, GraphQl",
+    site: "https://www.themarsmarket.com/"
 }
 
 const breweryData = {
@@ -90,6 +99,7 @@ function Container(props) {
                                     case 'My Projects':
                                         return (
                                             <>
+                                                <Card image={marketData.image} bio={marketData.bio} captionone={marketData.captionone} captiontwo={marketData.captiontwo} site={marketData.site} />
                                                 <Card image={breweryData.image} bio={breweryData.bio} captionone={breweryData.captionone} captiontwo={breweryData.captiontwo} site={breweryData.site} />
                                                 <Card image={nightinData.image} bio={nightinData.bio} captionone={nightinData.captionone} captiontwo={nightinData.captiontwo} site={nightinData.site} />
                                                 <Card image={passwordData.image} bio={passwordData.bio} captionone={passwordData.captionone} captiontwo={passwordData.captiontwo} site={passwordData.site} />
