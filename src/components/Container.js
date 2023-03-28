@@ -121,36 +121,37 @@ function Container(props) {
                 </div>
             </div>
             <div className='min-[640px]:hidden '>
-            <div className='w-full flex justify-center text-zinc-300 text-[2.5rem]'>
-                        {props.title}
-                    </div>
-            <div id='container' className={`flex items-center flex-col overflow-y-scroll w-full h-[50vh] ${props.title === 'About Me' ? 'justify-center' : ''} ${props.title === 'About Me' ? 'h-[70vh]' : ''}`}>
-                        <>
-                            {(() => {
-                                switch (props.title) {
-                                    case 'About Me':
-                                        return (<Bio image={bio.image} bio={bio.bio} captionone={bio.captionone} captiontwo={bio.captiontwo} />);
-                                    case 'My Projects':
-                                        return (
-                                            <>
-                                                <Card image={breweryData.image} bio={breweryData.bio} captionone={breweryData.captionone} captiontwo={breweryData.captiontwo} site={breweryData.site} />
-                                                <Card image={nightinData.image} bio={nightinData.bio} captionone={nightinData.captionone} captiontwo={nightinData.captiontwo} site={nightinData.site} />
-                                                <Card image={passwordData.image} bio={passwordData.bio} captionone={passwordData.captionone} captiontwo={passwordData.captiontwo} site={passwordData.site} />
-                                                <Card image={weatherData.image} bio={weatherData.bio} captionone={weatherData.captionone} captiontwo={weatherData.captiontwo} site={weatherData.site} />
-                                                <Card image={quizData.image} bio={quizData.bio} captionone={quizData.captionone} captiontwo={quizData.captiontwo} site={quizData.site} />
-                                                <Card image={teamData.image} bio={teamData.bio} captionone={teamData.captionone} captiontwo={teamData.captiontwo} site={teamData.site} />
-                                            </>
-                                        );
-                                    case 'Contact Me':
-                                        return (
-                                            <Form />
-                                        );
-                                    default:
-                                        return null;
-                                }
-                            })()}
-                        </>
-                    </div>
+                <div className='w-full flex justify-center text-zinc-300 text-[2.5rem]'>
+                    {props.title}
+                </div>
+                <div id='container' className={`flex items-center flex-col overflow-y-scroll w-full h-[50vh] ${props.title === 'About Me' ? 'justify-center' : ''} ${props.title === 'About Me' ? 'h-[70vh]' : ''}`}>
+                    <>
+                        {(() => {
+                            switch (props.title) {
+                                case 'About Me':
+                                    return (<Bio image={bio.image} bio={bio.bio} captionone={bio.captionone} captiontwo={bio.captiontwo} />);
+                                case 'My Projects':
+                                    return (
+                                        <>
+                                            <Card image={marketData.image} bio={marketData.bio} captionone={marketData.captionone} captiontwo={marketData.captiontwo} site={marketData.site} />
+                                            <Card image={breweryData.image} bio={breweryData.bio} captionone={breweryData.captionone} captiontwo={breweryData.captiontwo} site={breweryData.site} />
+                                            <Card image={nightinData.image} bio={nightinData.bio} captionone={nightinData.captionone} captiontwo={nightinData.captiontwo} site={nightinData.site} />
+                                            <Card image={passwordData.image} bio={passwordData.bio} captionone={passwordData.captionone} captiontwo={passwordData.captiontwo} site={passwordData.site} />
+                                            <Card image={weatherData.image} bio={weatherData.bio} captionone={weatherData.captionone} captiontwo={weatherData.captiontwo} site={weatherData.site} />
+                                            <Card image={quizData.image} bio={quizData.bio} captionone={quizData.captionone} captiontwo={quizData.captiontwo} site={quizData.site} />
+                                            <Card image={teamData.image} bio={teamData.bio} captionone={teamData.captionone} captiontwo={teamData.captiontwo} site={teamData.site} />
+                                        </>
+                                    );
+                                case 'Contact Me':
+                                    return (
+                                        <Form />
+                                    );
+                                default:
+                                    return null;
+                            }
+                        })()}
+                    </>
+                </div>
             </div>
         </>
     );
