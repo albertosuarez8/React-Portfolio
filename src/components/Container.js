@@ -13,7 +13,7 @@ import logo from '../assets/logo.png'
 
 const bio = {
     image: alberto,
-    bio: "I am a senior business analyst and full stack developer with a proven track record of delivering innovative solutions to complex business problems. I have a deep expertise in gathering and analyzing business requirements, designing effective solutions, and developing web-based applications, software products, and APIs.",
+    bio: "I am a full stack developer and senior business analyst with a proven track record of delivering innovative solutions to complex business problems. I have a deep expertise in gathering and analyzing business requirements, designing effective solutions, and developing web-based applications, software products, and APIs.",
     captionone: "",
     captiontwo: ""
 }
@@ -82,7 +82,7 @@ function Container(props) {
                 <main>
                     <div className="p-16 sm:p-14">
                         <h1 className="md:max-[1798px]:text-[5rem] text-[5rem] min-[1799px]:text-[8rem] text-zinc-300 leading-none ">Alberto Suarez</h1>
-                        <h2 className="text-2xl sm:text-lg text-zinc-300 sm:p-3">Senior Business Analyst & Full Stack Student Developer.
+                        <h2 className="text-2xl sm:text-lg text-zinc-300 sm:p-3">Full Stack Developer & Senior Business Analyst.
                         </h2>
                     </div>
                 </main>
